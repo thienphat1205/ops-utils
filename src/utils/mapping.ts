@@ -1,0 +1,136 @@
+import { ItemApp } from "@/modal";
+
+export const renderUiAppList: ItemApp[] = [
+  {
+    indexApp: 1,
+    key: "giao_lay_tra",
+    name: "Giao-Lấy-Trả",
+    className: "app-lastmile",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev",
+      STAGING: "https://nhanh.ghn.dev",
+      BETA: "https://beta-nhanh.ghn.vn",
+      PRODUCTION: "https://nhanh.ghn.vn",
+    },
+  },
+  {
+    indexApp: 2,
+    key: "khach_hang_lon",
+    name: "Kho khách hàng lớn",
+    className: "app-megahub",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/khach-hang-lon",
+      STAGING: "https://nhanh.ghn.dev/khach-hang-lon",
+      BETA: "https://beta-nhanh.ghn.vn/khach-hang-lon",
+      PRODUCTION: "https://nhanh.ghn.vn/khach-hang-lon",
+    },
+  },
+  {
+    indexApp: 3,
+    key: "nhan_hang_tai_bc",
+    name: "Nhận hàng tại BC",
+    className: "app-station",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/gui-tra",
+      STAGING: "https://nhanh.ghn.dev/gui-tra",
+      BETA: "https://beta-nhanh.ghn.vn/gui-tra",
+      PRODUCTION: "https://nhanh.ghn.vn/gui-tra",
+    },
+  },
+  {
+    indexApp: 4,
+    key: "ktc_van_tai",
+    name: "KTC và Vận tải",
+    className: "app-inside",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/ktc-van-tai",
+      STAGING: "https://nhanh.ghn.dev/ktc-van-tai",
+      BETA: "https://beta-nhanh.ghn.vn/ktc-van-tai",
+      PRODUCTION: "https://nhanh.ghn.vn/ktc-van-tai",
+    },
+  },
+  {
+    indexApp: 5,
+    key: "quan_ly_kho_tuyen",
+    name: "Quản lý Kho và Tuyến",
+    className: "app-hub",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/quan-ly-kho-tuyen",
+      STAGING: "https://nhanh.ghn.dev/quan-ly-kho-tuyen",
+      BETA: "https://beta-nhanh.ghn.vn/quan-ly-kho-tuyen",
+      PRODUCTION: "https://nhanh.ghn.vn/quan-ly-kho-tuyen",
+    },
+  },
+  {
+    indexApp: 6,
+    key: "quan_ly_chat_luong",
+    name: "HT Quản Lý Chất Lượng",
+    className: "app-qlcl",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/qlcl",
+      STAGING: "https://nhanh.ghn.dev/qlcl",
+      BETA: "https://beta-nhanh.ghn.vn/qlcl",
+      PRODUCTION: "https://nhanh.ghn.vn/qlcl",
+    },
+  },
+  {
+    indexApp: 7,
+    key: "vantai_dieuphoi",
+    name: "Vận tải điều phối",
+    className: "app-vtdp",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/vantai-dieuphoi",
+      STAGING: "https://nhanh.ghn.dev/vantai-dieuphoi",
+      BETA: "https://beta-nhanh.ghn.vn/vantai-dieuphoi",
+      PRODUCTION: "https://nhanh.ghn.vn/vantai-dieuphoi",
+    },
+  },
+  {
+    indexApp: 8,
+    key: "vantai_quanly",
+    name: "Vận tải quản lý",
+    className: "app-vtql",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/vantai-quanly",
+      STAGING: "https://nhanh.ghn.dev/vantai-quanly",
+      BETA: "https://beta-nhanh.ghn.vn/vantai-quanly",
+      PRODUCTION: "https://nhanh.ghn.vn/vantai-quanly",
+    },
+  },
+  {
+    indexApp: 9,
+    key: "camera",
+    name: "Camera",
+    className: "app-camera",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/camera",
+      STAGING: "https://nhanh.ghn.dev/camera",
+      BETA: "https://beta-nhanh.ghn.vn/camera",
+      PRODUCTION: "https://nhanh.ghn.vn/camera",
+    },
+  },
+  {
+    indexApp: 10,
+    key: "ktc_lc",
+    name: "KTC-LC",
+    className: "app-ktc-lc",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/ktc-lc",
+      STAGING: "https://nhanh.ghn.dev/ktc-lc",
+      BETA: "https://beta-nhanh.ghn.vn/ktc-lc",
+      PRODUCTION: "https://nhanh.ghn.vn/ktc-lc",
+    },
+  },
+  {
+    indexApp: 11,
+    key: "chuyen_phat_truyen_thong",
+    name: "Chuyển phát truyền thống",
+    className: "app-cpn",
+    link: {
+      LOCAL: "https://nhanh.ghn.dev/cptt",
+      STAGING: "https://nhanh.ghn.dev/cptt",
+      BETA: "https://beta-nhanh.ghn.vn/cptt",
+      PRODUCTION: "https://nhanh.ghn.vn/cptt",
+    },
+  },
+];

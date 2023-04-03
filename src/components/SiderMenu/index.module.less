@@ -1,0 +1,73 @@
+@import "../../variables.less";
+
+.sider {
+  height: calc(100vh - 65px);
+  overflow-y: auto;
+  box-shadow: 0 0 10px 5px rgb(0 21 41 / 8%);
+  &::-webkit-scrollbar {
+    width: 6px;
+    display: none;
+  }
+  &::-webkit-scrollbar-track {
+    margin: 0 30px;
+  }
+  &::-webkit-scrollbar-track-piece {
+    background-color: #fafafa;
+  }
+  &::-webkit-scrollbar-thumb:vertical {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 65px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+// @media screen and (min-width: 768px) {
+//   .sider {
+//     :global {
+// .ant-menu-inline {
+//   border: none;
+// }
+// .ant-menu-item {
+//   border-radius: 0px 12px 12px 0px;
+//   height: 38px;
+// }
+// .ant-menu-inline .ant-menu-item::after {
+//   border-right: none;
+// }
+// .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+//   background-color: #eeeeee;
+// }
+// .ant-menu-sub.ant-menu-inline {
+//   background-color: #fff;
+// }
+// .ant-menu-sub.ant-menu-inline > .ant-menu-item,
+// .ant-menu-sub.ant-menu-inline
+//   > .ant-menu-submenu
+//   > .ant-menu-submenu-title {
+//   height: 38px;
+// }
+
+// .ant-menu-inline.ant-menu-root .ant-menu-item,
+// .ant-menu-inline.ant-menu-root .ant-menu-submenu-title {
+//   margin: 0;
+//   height: 38px;
+// }
+//
+
+@media screen and (max-width: 768px) {
+  .sider {
+    position: fixed;
+    top: 65px;
+    height: 100vh;
+    z-index: 1000;
+  }
+}
